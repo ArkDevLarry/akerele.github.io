@@ -59,7 +59,11 @@ const About = () => {
           </motion.p>
         </div>
         <div className="img md-4">
-          <img src={ logo } alt="" />
+        <Tilt className='xs:w-[250px] w-full'>
+          <motion.div>
+            <img src={ logo } alt="" />
+          </motion.div>
+        </Tilt>
         </div>
       </div>
 

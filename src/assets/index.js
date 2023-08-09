@@ -8,6 +8,10 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import php from "./tech/php.png";
+import laravel from "./tech/laravel.png";
+import livewire from "./tech/livewire.png";
+import jquery from "./tech/jquery.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -43,6 +47,10 @@ export {
   docker,
   figma,
   git,
+  php,
+  laravel,
+  livewire,
+  jquery,
   html,
   javascript,
   mongodb,

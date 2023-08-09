@@ -13,6 +13,10 @@ import {
   nodejs,
   mongodb,
   git,
+  php,
+  laravel,
+  livewire,
+  jquery,
   figma,
   docker,
   meta,
@@ -23,8 +27,6 @@ import {
   jobit,
   tripguide,
   threejs,
-  // php,
-  // laravel,
 } from "../assets";
 
 export const navLinks = [
@@ -70,18 +72,18 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  // {
-  //   name: "PHP",
-  //   icon: php,
-  // },
-  // {
-  //   name: "Laravel",
-  //   icon: laravel,
-  // },
-  // {
-  //   name: "Livewire",
-  //   icon: livewire,
-  // },
+  {
+    name: "PHP",
+    icon: php,
+  },
+  {
+    name: "Laravel",
+    icon: laravel,
+  },
+  {
+    name: "Livewire",
+    icon: livewire,
+  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -93,6 +95,10 @@ const technologies = [
   {
     name: "Redux Toolkit",
     icon: redux,
+  },
+  {
+    name: "jQuery",
+    icon: jquery
   },
   {
     name: "Tailwind CSS",
