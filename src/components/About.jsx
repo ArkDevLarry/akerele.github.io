@@ -41,7 +41,7 @@ const About = () => {
   return (
     <>
       <div className="flex flex-row">
-        <div className="w-full sm:w-full md:w-8/12 lg:w-8/12 xl:w-8/12">
+        <div className="w-full sm:w-12 md:w-8/12 lg:w-8/12 xl:w-8/12">
           <motion.div variants={textVariant()}>
             <p className={styles.sectionSubText}>Introduction</p>
             <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -58,7 +58,7 @@ const About = () => {
             real-world problems. Let's work together to bring your ideas to life!
           </motion.p>
         </div>
-        <div className="w-full md:w-4/12">
+        <div className="w-full sm:w-12 md:w-4/12 lg:w-4/12 xl:w-4/12">
         <Tilt className='xs:w-[250px] w-full'>
           <motion.div>
             <img src={ logo } alt="" />
