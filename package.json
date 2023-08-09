@@ -1,12 +1,11 @@
 {
-  "name": "3dfolio",
+  "name": "react-three-js-software-dev-portfolio",
   "private": true,
   "homepage": "https://ArkDevLarry.github.io/akerele.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "vite build && gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
